@@ -41,6 +41,7 @@
 	},
 	"require-dev": {
 		"php": ">=5.3.3",
+		"10up/wp_mock": "dev-master",
 		"phpunit/phpunit": "~4.8"
 	},
 	"repositories": [
