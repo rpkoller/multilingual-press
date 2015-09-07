@@ -76,30 +76,4 @@ interface Inpsyde_Property_List_Interface {
 	 */
 	public function is_frozen();
 
-	/**
-	 * Wrapper for set().
-	 *
-	 * @see    set()
-	 * @param  string $name
-	 * @param  mixed  $value
-	 */
-	public function __set( $name, $value );
-
-	/**
-	 * Wrapper for get()
-	 *
-	 * @see    get()
-	 * @param  string $name
-	 * @return mixed
-	 */
-	public function __get( $name );
-
-	/**
-	 * Wrapper for has().
-	 *
-	 * @see    has()
-	 * @param  string $name
-	 * @return boolean
-	 */
-	public function __isset( $name );
 }
